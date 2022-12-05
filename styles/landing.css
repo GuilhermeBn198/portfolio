@@ -9,3 +9,8 @@
 #welcome:hover {
 	filter: blur(0rem);
   }
+
+.page{
+	align-items: center;
+
+}

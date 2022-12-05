@@ -12,24 +12,28 @@
 	color: white;
 }
 .greatertext{
-	font-size: 12px;
+	font-size: 6vh;
 }
 .mediumtext {
-	font-size: 7px;
+	font-size: 3.5vh;
 	margin: 0;
 }
 .paragraph {
-	font-size: 6px;
+	font-size: 2.7vh;
 }
 
 p{
-	text-shadow: -0.1px 0.5px #000;
+	text-shadow: -0.2vh 0.3vh #000;
 }
 h1, h2, h3, h4, h5, h6{
-	text-shadow: -1px 0.8px #000;
+	text-shadow: -0.5vh 0.3vh #000;
 
 }
 /*container styles*/
+
+.generalcontainer{
+	box-shadow: -0.5vh 0.5vh 0.5vh black;
+}
 #header{
 	width: 100%;
 	height: fit-content;
@@ -38,17 +42,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-
 .card{
 	background-color: #4B4B4B;
-	width: 28%;
+	width: 30%;
 	height: 35%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 10px;
-	box-shadow: -0.5px 0.5px 0.5px black;
+	border-radius: 2vh;
 
 }
 
@@ -64,33 +66,27 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .informationcontainer{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	background-color: #646464;
 	margin: 3%;
-	border-radius: 10px;
-	box-shadow: -0.5px 0.5px 0.5px black;
-
-
+	border-radius: 2vh;
 }
-
-
-
-
 
 .techstitlecontainer{
 	width: 100%;
-	margin-top: 1%;
-	margin-left: 2%;
+	margin-top: 2%;
+	margin-left: 3%;
 }
 .techs {
-	border: solid 3px #8D6F11;
 	width: fit-content;
 	height: fit-content;
 	background-color: #868686;
-	border-radius: 10px;
-	padding-top: 4%;
-	box-shadow: -0.5px 0.5px 0.5px black;
-
-	
+	border-radius: 1.5vh;
+	padding: 2%;
+	margin-top: 2%;
+	margin-left: 3%;	
 }
 
 
@@ -98,9 +94,8 @@ h1, h2, h3, h4, h5, h6{
 
 .descriptiontitlecontainer{
 	width: 100%;
-	margin-top: 1%;
-	margin-left: 2%;
-	
+	margin-top: 3%;
+	margin-left: 3%;
 }
 
 .descriptioncontainer{
@@ -109,9 +104,9 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #868686;
 	display: flex;
 	justify-content: center;
-	border-radius: 10px;
-	margin: 3px;
-	box-shadow: -0.5px 0.5px 0.5px black;
+	border-radius: 2vh;
+	margin: 2%;
+	padding: 1%;
 
 }
 
@@ -120,16 +115,14 @@ h1, h2, h3, h4, h5, h6{
 
 
 img{
-	width: 15px;
-	height: 15px;
+	width: 5vh;
+	height: 5vh;
 }
 
 #cacc{
 	width: 55%;
 	height: 55%;
 	border-radius: 10px;
-	box-shadow: -1px 1px 1px black;
-
 }
 
 
