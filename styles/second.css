@@ -12,14 +12,14 @@
 	color: white;
 }
 .greatertext{
-	font-size: 6vh;
+	font-size: 3vh;
 }
 .mediumtext {
-	font-size: 3.5vh;
+	font-size: 2.5vh;
 	margin: 0;
 }
 .paragraph {
-	font-size: 2.7vh;
+	font-size: 2vh;
 }
 
 p{
@@ -113,16 +113,15 @@ h1, h2, h3, h4, h5, h6{
 
 
 
+#cacc{
+	height: 55%;
+	width: 55%;
+	border-radius: 2vh;
+}
 
 img{
 	width: 5vh;
 	height: 5vh;
-}
-
-#cacc{
-	width: 55%;
-	height: 55%;
-	border-radius: 10px;
 }
 
 
