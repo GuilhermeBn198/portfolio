@@ -51,7 +51,6 @@ h1, h2, h3, h4, h5, h6{
 	justify-content: center;
 	align-items: center;
 	border-radius: 2vh;
-
 }
 
 .titlecard{
@@ -128,20 +127,32 @@ img{
 
 footer{
 	width: 60%;
-	height: 20%;
+	height: 15%;
 
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	flex-direction: column;
-
-	border: solid 3px #8D6F11;
-
 }
 
 .contacts{
 	width: fit-content;
 	height: fit-content;
-	border: solid 3px #8D6F11;
+	background-color: #646464;
+	padding: 1.5vh;
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	flex-direction: column;
+	border-radius: 2vh;
+}
 
+.contacttext{
+	margin-bottom: 1vh;
+}
+
+.contacticon{
+	width: 7vh;
+    height: 7vh;
+    border-radius: 10%;
 }
