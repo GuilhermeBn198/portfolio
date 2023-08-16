@@ -111,7 +111,7 @@
           <h2 class="titulo-works">PROJETOS</h2>
           <div class="grid_container_works">
             <div class="grid_items_div">
-              <a href="https://dcc-ufrr.app/" target="_blank"><img class="grid_items_works" src="/imgs/tela_site_dcc.png" alt="Site DCC - CMS"></a>
+              <a href="https://github.com/GuilhermeBn198/NodeTaskManager" target="_blank"><img class="grid_items_works" src="/imgs/tela_site_dcc.png" alt="gerenciador de tarefas"></a>
               <h3>task Manager simples em NodeJs </h3>
             </div>
             <div class="grid_items_div">
@@ -139,24 +139,28 @@
         </div>
       </section>
       <!-- ---------------CONTACT------------------------------------------------------------------------------------------ -->
+
+
       <section class="contact">
         <h2 class="titulo-contact" id="contact">CONTATO</h2>
         <div class="contact-details">
           <div class="contact-details-email">
-            <img src="/imgs/email.svg">
-            <a href="mailto:dacostalucinaldo@gmail.com">acauan.ribeiro@gmail.com</a>
+            <img src="https://cdn.icon-icons.com/icons2/272/PNG/512/Gmail_29991.png">
+            <a href="mailto:bguilherme51@gmail.com">bguilherme51@gmail.com</a>
             <p>Mandar E-mail</p>
           </div>
           <h3 class="titulo-contact_form">Formulário de Contato</h3>
-          <form class="form_contact">
-            <input type="text" class="name" required placeholder="Name *">
-            <input type="email" class="email" required placeholder="Email *">
-            <input type="text" class="subject" required placeholder="Assunto *">
-            <textarea required placeholder="Sua mensagem *"></textarea>
-            <input class="submit" type="submit" value="Enviar">
-          </form>
+            <form class="form_contact" action="https://formsubmit.co/bguilherme51@gmail.com" method="POST">
+              <input type="text" class="name" required placeholder="Nome *" name="Nome">
+              <input type="email" class="email" required placeholder="E-mail *" name="E-mail">
+              <input type="text" class="subject" required placeholder="Assunto *" name="Assunto">
+              <textarea required placeholder="Sua mensagem *" name="Texto do contato"></textarea>
+              <input type="hidden" name="_captcha" value="false">
+              <input class="submit" type="submit" value="Enviar">
+            </form>
         </div>
       </section>
+      
     </main>
     <!-- ---------------FOOTER---------------------------------------------------------------------------------------------------- -->
     <footer>
