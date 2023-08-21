@@ -1,0 +1,28 @@
+{
+    "header": {
+        "logo": "this is guilherme dev",
+        "menu": ["Home", "About", "Skills", "Projects", "Contact"]
+    },
+    "description": {
+        "greet": "Hello, my name is",
+        "Smalldescription": "I'm a <span>Computer Scientist and Back end Developer</span>with enphasis in Project management, software architecture, requirement analysis, dependencies, artifacts, information security and software verification."
+    },
+    "about": {
+        "about": "About me",
+        "information": "<p>As an eighth-semester Computer Science student and junior back-end developer, I am always on the lookout for new challenges that will allow me to apply and expand my technical skill set, which includes technologies such as NodeJs, C, Python, PHP, MySQL, JavaScript, HTML, and CSS. Below, I describe some key features that I believe I possess:</p><br/><ul><li><strong>Solid technical experience:</strong> I have extensive knowledge and practical experience in various web technologies, such as JavaScript, Python and PHP programming languages, frameworks such as NodeJs and Laravel and MySQL and PostgreSQL databases. All this knowledge was built through the various personal and freelance projects. Currently I participate in a development project of a development Startup located in São Luis in Maranhão.</li><br><li><strong>Adaptability:</strong> I am always willing to learn new technologies and tools, keeping up to date on industry trends. My ability to adapt quickly to new environments and methodologies is crucial to meeting new challenges.</li><br><li><strong>Good development practices:</strong> I follow coding best practices, such as writing clean, modular, and well-documented code. In addition, I understand the importance of automated testing to ensure software quality.</li><br><li><strong>Troubleshooting:</strong> In the face of complex challenges, I remain calm and approach problems in a systematic way. I am able to analyze, debug and find effective solutions to technical and business problems.</li><br><li><strong>Autonomy:</strong> I am proactive and able to work independently, taking responsibility for my tasks and deliverables. I'm always looking for opportunities to contribute beyond my immediate assignments.</li><br><li><strong>Passion for technology:</strong> Above all, I am passionate about technology and the process of creation. This passion drives my desire to take on new challenges, continuously learn, and deliver exceptional solutions.</li><br></ul></ul>" 
+    },
+    "skills": {
+        "skills": "Skills"
+
+    },
+    "projects": {
+        "works":"Projects"
+    },
+    "contact": {
+        "t_contact": "Contact",
+        "send_email": "Send Email",
+        "t_form": "Send me a message!",
+        "b_submit": "Send"
+
+    }
+}

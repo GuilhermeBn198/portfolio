@@ -1,6 +1,6 @@
 const navBar = document.querySelector(".nav_menu_bars");
 const navUl = document.querySelector(".nav_ul");
-const navLinks = document.querySelectorAll(".nav_ul li");
+const navLinks = document.querySelectorAll(".nav_ul_li_a");
 
 function add_removeClass() {
   navBar.classList.toggle("nav_menu_bars_active");
@@ -20,11 +20,9 @@ navLinks.forEach((e) => {
 function widthSize() {
   let ancho = window.innerWidth;
   if (ancho > 750) {
-    console.log("oi");
     navBar.classList.remove("nav_menu_bars_active");
     navUl.classList.remove("nav_ul_active");
   }
-  console.log(ancho);
 }
 
 window.addEventListener("resize", widthSize);
