@@ -5,7 +5,7 @@
     },
     "description": {
         "greet": "Hello, my name is",
-        "Smalldescription": "I'm a <span>Computer Scientist and Back end Developer</span>with enphasis in Project management, software architecture, requirement analysis, dependencies, artifacts, information security and software verification."
+        "Smalldescription": "I'm a <span>Computer Scientist and Back end Developer</span> with enphasis in Project management, software architecture, requirement analysis, dependencies, artifacts, information security and software verification."
     },
     "about": {
         "about": "About me",
