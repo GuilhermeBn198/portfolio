@@ -14,15 +14,15 @@ const t_form = document.querySelector(".t_contact_form")
 const button_submit_form = document.querySelector(".submit")
 
 
-var url = "content/pt-br.json";
+var url = "/content/pt-br.json";
 
 flag_pt.addEventListener("click", () => {
-    url = "content/pt-br.json";
+    url = "/content/pt-br.json";
     load();
 });
 
 flag_en.addEventListener("click", () => {
-    url = "content/en-us.json";
+    url = "/content/en-us.json";
     load();
 });
 
